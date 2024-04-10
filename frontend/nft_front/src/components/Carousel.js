@@ -1,7 +1,9 @@
+import HeaderImg from '../assets/images/header-img.png'
+
 const Carousel = () => {
     return (
         <div>
-            asdsadsad
+            <img classname="" src={HeaderImg} />
         </div>
     )
 }

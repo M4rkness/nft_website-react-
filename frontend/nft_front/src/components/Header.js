@@ -45,7 +45,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="col-span-6">
-                        <div className="flex ">
+                        <div className="">
                             <Carousel />
                         </div>
                     </div>
