@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png'
 
 const Navbar = () => {
@@ -9,9 +10,9 @@ const Navbar = () => {
                         <img src={logo} />
                     </div>
                     <div className="flex space-x-10">
-                        <a href="#" className="text-xl uppercase text-[#606060]">Discover</a>
+                        <a href="/" className="text-xl uppercase text-[#606060]">Discover</a>
                         <a href="#" className="text-xl uppercase text-[#606060]">Creators</a>
-                        <a href="#" className="text-xl uppercase text-[#606060]">Sell</a>
+                        <Link to="/createNFT" href="#" className="text-xl uppercase text-[#606060]">Sell</Link>
                         <a href="#" className="text-xl uppercase text-[#606060]">Stats</a>
                     </div>
                     <form className="max-w-md ps-14">

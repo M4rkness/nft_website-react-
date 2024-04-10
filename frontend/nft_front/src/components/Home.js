@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 import Navbar from "./Navbar";
 import WeeklyNFT from "./WeeklyNFT";
@@ -9,6 +10,7 @@ const Home = () => {
            <Navbar /> 
            <Header />
            <WeeklyNFT />
+           <Footer />
         </div>
     )
 }
