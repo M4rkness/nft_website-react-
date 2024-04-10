@@ -27,5 +27,13 @@
             "dest": "nft_website/wsgi.py"
         }
     ],
-    "outputDirectory": "ui/staticfiles"
+    "outputDirectory": "ui/staticfiles",
+
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
+    
 }
