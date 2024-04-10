@@ -1,9 +1,12 @@
+import Header from "./Header";
+import Navbar from "./Navbar";
 
 
 const Home = () => {
     return (
-        <div className="bg-[#FFAAFF]">
-            asd
+        <div>
+           <Navbar /> 
+           <Header />
         </div>
     )
 }
