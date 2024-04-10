@@ -25,6 +25,10 @@
         {
             "src": "/(.*)",
             "dest": "nft_website/wsgi.py"
+        },
+        {
+            "src": "/swagger",
+            "dest": "nft_website/wsgi.py"
         }
     ],
     "outputDirectory": "ui/staticfiles",
