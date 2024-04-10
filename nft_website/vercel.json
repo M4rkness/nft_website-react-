@@ -28,7 +28,7 @@
         },
         {
             "src": "/swagger",
-            "dest": "nft_website/wsgi.py"
+            "dest": "/"
         }
     ],
     "outputDirectory": "ui/staticfiles",
