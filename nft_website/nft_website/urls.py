@@ -20,6 +20,8 @@ from drf_yasg import openapi
 
 from django.contrib import admin
 from django.urls import path, re_path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 from rest_framework import permissions
 
@@ -45,4 +47,7 @@ urlpatterns = [
 
     path("api/", include("main.urls"))
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)
 
