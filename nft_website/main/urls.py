@@ -20,6 +20,8 @@ from django.urls import path, re_path
 
 
 urlpatterns = [
+    # API
     path("index", views.IndexAPIView.as_view()),
+    path("signup", views.UserRegistrationAPIView.as_view())
 ]
 
