@@ -8,8 +8,8 @@ const WeeklyNFT = () => {
                     Weekly - Top NFT
                 </h1>
             </div>
-            <div className="flex flex-row gap-10 py-8">
-                <div className="flex flex-col w-72 bg-white rounded-[21px]">
+            <div className="flex flex-row gap-10 py-8 box ">
+                <div className="flex flex-col w-72 bg-white rounded-[21px] shadow-2xl">
                     <img className='p-5 mx-auto' src={WeeklyImg} />
                     <h1 className='text-[21px] font-semibold px-5'>Sun-Glass</h1>
                     <div className='flex flex-row justify-between py-3'>
@@ -28,7 +28,7 @@ const WeeklyNFT = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-72 bg-white rounded-[21px]">
+                <div className="flex flex-col w-72 bg-white rounded-[21px] shadow-2xl">
                     <img className='p-5 mx-auto' src={WeeklyImg} />
                     <h1 className='text-[21px] font-semibold px-5'>Sun-Glass</h1>
                     <div className='flex flex-row justify-between py-3'>
@@ -47,7 +47,7 @@ const WeeklyNFT = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-72 bg-white rounded-[21px]">
+                <div className="flex flex-col w-72 bg-white rounded-[21px] shadow-2xl">
                     <img className='p-5 mx-auto' src={WeeklyImg} />
                     <h1 className='text-[21px] font-semibold px-5'>Sun-Glass</h1>
                     <div className='flex flex-row justify-between py-3'>
@@ -66,7 +66,7 @@ const WeeklyNFT = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-72 bg-white rounded-[21px]">
+                <div className="flex flex-col w-72 bg-white rounded-[21px] shadow-2xl">
                     <img className='p-5 mx-auto' src={WeeklyImg} />
                     <h1 className='text-[21px] font-semibold px-5'>Sun-Glass</h1>
                     <div className='flex flex-row justify-between py-3'>
@@ -85,7 +85,7 @@ const WeeklyNFT = () => {
                     </div>
                 </div>
                 
-                <div className="flex flex-col w-72 bg-white rounded-[21px]">
+                <div className="flex flex-col w-72 bg-white rounded-[21px] shadow-2xl">
                     <img className='p-5 mx-auto' src={WeeklyImg} />
                     <h1 className='text-[21px] font-semibold px-5'>Sun-Glass</h1>
                     <div className='flex flex-row justify-between py-3'>
@@ -104,7 +104,7 @@ const WeeklyNFT = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-72 bg-white rounded-[21px]">
+                <div className="flex flex-col w-72 bg-white rounded-[21px] shadow-2xl">
                     <img className='p-5 mx-auto' src={WeeklyImg} />
                     <h1 className='text-[21px] font-semibold px-5'>Sun-Glass</h1>
                     <div className='flex flex-row justify-between py-3'>
